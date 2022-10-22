@@ -8,6 +8,7 @@ import {
   AiOutlineLinkedin,
   AiOutlineTwitter,
 } from "react-icons/ai";
+import { IoLogoGooglePlaystore } from "react-icons/io5";
 import { Parallax } from "react-scroll-parallax";
 import picone from "./asset/usecase-900x465-3.png";
 import pictwo from "./asset/usecase-900x465-4.png";
@@ -140,7 +141,7 @@ function Spec() {
           </p>
           <div className="foot_spec_btn_container">
             <div id="foot_spec_btn_one">
-              <i class="material-icons-outlined">adb</i>
+              <IoLogoGooglePlaystore size={24} />
               <span style={{ marginLeft: "10px" }}>
                 <p className="first_spec_btn_value">GET IT ON</p>
                 <p className="second_spec_btn_value">Google Play</p>

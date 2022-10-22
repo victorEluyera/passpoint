@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { AiOutlineMenu } from "react-icons/ai";
 import { useMediaQuery } from "react-responsive";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
@@ -23,10 +24,16 @@ function NavBars() {
         <div id="menu_icon_container">
           <div id="logo">PassPoint</div>
           {!isDesktopOrLaptop && (
-            <button onClick={toggleMenu}>
-              <i class="material-icons" id="menu_icon">
-                menu
-              </i>
+            <button
+              onClick={toggleMenu}
+              style={{
+                background: "black",
+                color: "white",
+                border: "none",
+                fontSize: "20px",
+              }}
+            >
+              <AiOutlineMenu>menu</AiOutlineMenu>
             </button>
           )}
         </div>

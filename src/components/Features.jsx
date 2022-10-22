@@ -1,5 +1,10 @@
 import React, { useRef } from "react";
 import ScrollAnimation from "react-animate-on-scroll";
+import { AiOutlineHeart } from "react-icons/ai";
+import { BsCommand, BsHeadset } from "react-icons/bs";
+import { IoNewspaperOutline } from "react-icons/io5";
+import { MdGroup } from "react-icons/md";
+import { RiTable2 } from "react-icons/ri";
 import { Parallax } from "react-scroll-parallax";
 import oneFeature from "./asset/product-600x1200-4.png";
 import twoFeature from "./asset/product-600x1200-5.png";
@@ -23,9 +28,8 @@ function Features() {
         <ScrollAnimation animateIn="bounceInRight" animateOut="bounceOutLeft">
           <div className="sub_feature_container">
             <div className="feature_box">
-              <i class="material-icons" id="feature_icon">
-                headset_mic
-              </i>
+              <BsHeadset style={{ fontSize: "64px", color: "#f9a806" }} />
+
               <p className="sub_feature_header">Made With React</p>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
@@ -34,9 +38,10 @@ function Features() {
               </p>
             </div>
             <div className="feature_box">
-              <i class="material-icons" id="feature_icon">
-                newspaper
-              </i>
+              <IoNewspaperOutline
+                style={{ fontSize: "64px", color: "#f9a806" }}
+              />
+
               <p className="sub_feature_header">With Some Dependecies</p>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
@@ -45,9 +50,8 @@ function Features() {
               </p>
             </div>
             <div className="feature_box">
-              <i class="material-icons" id="feature_icon">
-                backup_table
-              </i>
+              <RiTable2 style={{ fontSize: "64px", color: "#f9a806" }} />
+
               <p className="sub_feature_header">Made With React</p>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
@@ -61,9 +65,8 @@ function Features() {
         <ScrollAnimation animateIn="bounceInLeft" animateOut="bounceOutRight">
           <div className="sub_feature_container">
             <div className="feature_box">
-              <i class="material-icons-outlined" id="feature_icon">
-                favorite
-              </i>
+              <AiOutlineHeart style={{ fontSize: "64px", color: "#f9a806" }} />
+
               <p className="sub_feature_header">Made With React</p>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
@@ -72,9 +75,7 @@ function Features() {
               </p>
             </div>
             <div className="feature_box">
-              <i class="material-icons" id="feature_icon">
-                keyboard_command_key
-              </i>
+              <BsCommand style={{ fontSize: "64px", color: "#f9a806" }} />
               <p className="sub_feature_header">Made With React</p>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
@@ -83,9 +84,7 @@ function Features() {
               </p>
             </div>
             <div className="feature_box">
-              <i class="material-icons" id="feature_icon">
-                group
-              </i>
+              <MdGroup style={{ fontSize: "64px", color: "#f9a806" }} />
               <p className="sub_feature_header">Made With React</p>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus

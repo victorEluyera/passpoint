@@ -327,11 +327,6 @@ body {
   width: 80%;
 }
 
-#feature_icon {
-  font-size: 64px;
-  color: #f9a806;
-}
-
 .the_fact_feature_section {
   display: flex;
   padding: 48px 0px;
